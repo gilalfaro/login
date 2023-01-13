@@ -3,6 +3,8 @@
 * {
     font-family: Helvetica, sans-serif;
     margin: 0px;
+    margin-bottom: 0px;
+    
 }
 
 .fondo {
@@ -70,6 +72,7 @@
     min-width: 50%;
     min-height: 100%;
     padding: 20px;
+  
     
 
 }
@@ -86,7 +89,7 @@
     -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 1px 1px 3px 2px #b8b8b8;
     text-align: center;
-    margin-bottom: 400px;
+    margin-bottom: 206px;
 }
 
 
@@ -96,6 +99,7 @@
     background-color: #4b286d;
     width: 100%;
     max-width: 100%;
+    min-width: 50%;
     overflow: hidden;
     position: relative;
     
@@ -110,4 +114,32 @@
     overflow: hidden;
     position: relative;
     padding: 25px;
+}
+
+.footer1{
+  
+    background-color: #2c2e30;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 27px;
+
+    color: #FFFFFF;
+   
+}
+
+.logoYTDX{
+    display: flex;
+    text-decoration: none;
+
+}
+
+.titleCabecera{
+    padding-left: 15px;
+    padding-top: 5px;
+    color: #4b286d;
+
+    font-weight: bold;
+    
 }
